@@ -14,6 +14,10 @@ Rails.application.configure do
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
 
+  #HERE
+  # set the relative root, because we're deploying to /myrailsapp
+  config.action_controller.relative_url_root  = "/myrailsapp"
+
   # Attempt to read encrypted secrets from `config/secrets.yml.enc`.
   # Requires an encryption key in `ENV["RAILS_MASTER_KEY"]` or
   # `config/secrets.yml.key`.
