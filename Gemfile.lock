@@ -103,6 +103,8 @@ GEM
     ffi (1.9.25-x86-mingw32)
     font-awesome-rails (4.7.0.4)
       railties (>= 3.2, < 6.0)
+    font-awesome-sass (4.5.0)
+      sass (>= 3.2)
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
@@ -268,6 +270,7 @@ DEPENDENCIES
   devise
   draper
   font-awesome-rails
+  font-awesome-sass (~> 4.5.0)
   frontend-generators
   jbuilder (~> 2.5)
   jquery-rails
