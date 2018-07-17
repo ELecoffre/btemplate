@@ -13,8 +13,8 @@ group :development do
 	gem 'sqlite3'
 end
 
-group :development do
-	gem 'pg'
+group :production do
+  gem 'pg', '~> 0.20'
 	gem 'rails_12factor'
 end
 # Use Puma as the app server
