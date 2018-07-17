@@ -16,7 +16,7 @@ Rails.application.configure do
 
   #HERE
   # set the relative root, because we're deploying to /myrailsapp
-  config.action_controller.relative_url_root  = "/myrailsapp"
+
 
   # Attempt to read encrypted secrets from `config/secrets.yml.enc`.
   # Requires an encryption key in `ENV["RAILS_MASTER_KEY"]` or
