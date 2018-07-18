@@ -59,7 +59,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'frontend-generators'
 gem 'jquery-rails'
 gem "font-awesome-rails"
-gem 'font-awesome-sass', '~> 4.5.0'
+gem 'font-awesome-sass', '~> 4.6.2'
 
 gem 'activeadmin'
 
